@@ -1,0 +1,15 @@
+numero = int(input("Valor para sacar [1-1000]:"))
+cem = int(numero / 100)
+numero = numero % 100
+cinquenta = int(numero / 50)
+numero = numero % 50
+dez = int(numero / 10)
+numero = numero % 10
+cinco = int(numero / 5)
+numero = numero % 5
+um = numero
+print(f"Notas R$100,00 = {cem}")
+print(f"Notas R$ 50,00 = {cinquenta}")
+print(f"Notas R$ 10,00 = {dez}")
+print(f"Notas R$  5,00 = {cinco}")
+print(f"Notas R$  1,00 = {um}")
